@@ -1,11 +1,2 @@
-require "rails-jasny-bootstrap-extension/version"
-
-module Rails
-  module Jasny
-    module Bootstrap
-      module Extension
-        # Your code goes here...
-      end
-    end
-  end
-end
+require 'rails-jasny-bootstrap-extension/version'
+require 'rails-jasny-bootstrap-extension/engine' if ::Rails.version >= '3.1'
